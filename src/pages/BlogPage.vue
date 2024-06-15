@@ -3,7 +3,7 @@ import ProjectList from "../components/ProjectList.vue";
 export default {
   data() {
     return {
-      title: "My Projects",
+      title: "My Projects.",
     };
   },
 

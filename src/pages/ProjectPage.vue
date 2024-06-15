@@ -27,8 +27,9 @@ export default {
 
 <template>
   <!-- stampa pagina dettaglio provvisoria -->
-  <div class="container my-4">
-    <div>
+  <div class="container my-5">
+    <div class="d-flex justify-content-between mb-3">
+      <h1>{{ name }}</h1>
       <button
         @click="goBack"
         class="btn my-3"
@@ -37,7 +38,6 @@ export default {
         Go to projects
       </button>
     </div>
-    <h1 class="mb-3">{{ name }}</h1>
     <div>
       <img :src="'/img/' + image + '.png'" class="img-fluid" />
     </div>

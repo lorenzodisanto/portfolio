@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      title: "About me",
+      title: "About.",
     };
   },
 };

@@ -28,25 +28,25 @@ export default {
         </button>
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="nav-item ms-4">
               <router-link :to="{ name: 'about' }" class="nav-link text-white">
-                About me
+                About.
               </router-link>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ms-4">
               <router-link
                 :to="{ name: 'projects' }"
                 class="nav-link text-white"
               >
-                Projects
+                Projects.
               </router-link>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ms-4">
               <router-link
                 :to="{ name: 'contact' }"
                 class="nav-link text-white"
               >
-                Contact
+                Contact.
               </router-link>
             </li>
           </ul>
