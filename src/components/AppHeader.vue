@@ -30,7 +30,7 @@ export default {
           <ul class="navbar-nav">
             <li class="nav-item ms-4">
               <router-link :to="{ name: 'about' }" class="nav-link text-white">
-                About.
+                About
               </router-link>
             </li>
             <li class="nav-item ms-4">
@@ -38,7 +38,7 @@ export default {
                 :to="{ name: 'projects' }"
                 class="nav-link text-white"
               >
-                Projects.
+                Projects
               </router-link>
             </li>
             <li class="nav-item ms-4">
@@ -46,7 +46,7 @@ export default {
                 :to="{ name: 'contact' }"
                 class="nav-link text-white"
               >
-                Contact.
+                Contact
               </router-link>
             </li>
           </ul>
@@ -61,5 +61,6 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
+  height: 67px;
 }
 </style>

@@ -2,7 +2,7 @@
 @import "bootstrap/scss/bootstrap";
 
 .wrapper {
-  height: 100vh;
+  height: calc(100vh - 67px - 56px);
   display: flex;
   justify-content: center;
   align-items: center;

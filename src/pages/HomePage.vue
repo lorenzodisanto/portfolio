@@ -26,12 +26,11 @@ h4 {
   font-size: 2rem;
 }
 .typing-demo {
-  width: 25ch;
-  animation: typing 2s steps(25), blink 0.5s step-end infinite alternate;
+  width: 24ch;
+  animation: typing 2s steps(24), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-family: monospace;
   font-size: 2em;
 }
 
