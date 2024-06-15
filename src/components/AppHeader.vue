@@ -30,7 +30,7 @@ export default {
           <ul class="navbar-nav">
             <li class="nav-item">
               <router-link :to="{ name: 'about' }" class="nav-link text-white">
-                About
+                About me
               </router-link>
             </li>
             <li class="nav-item">
