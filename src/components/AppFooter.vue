@@ -7,7 +7,7 @@ export default {
 
 <template>
   <footer>
-    <nav class="navbar text-bg-dark">
+    <nav class="navbar">
       <div class="container">
         <a
           class="navbar-brand text-white"
@@ -24,5 +24,6 @@ export default {
 <style lang="scss" scoped>
 footer {
   height: 56px;
+  background-color: black;
 }
 </style>

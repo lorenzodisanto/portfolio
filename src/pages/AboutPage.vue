@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <div class="container my-5">
+  <div class="container">
     <h1>{{ title }}</h1>
     <div class="wrapper">
       <div class="d-flex">

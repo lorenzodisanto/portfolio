@@ -17,10 +17,15 @@ export default {
 
 <template>
   <app-header :title="title"></app-header>
-  <router-view></router-view>
+  <div class="background">
+    <router-view></router-view>
+  </div>
   <app-footer :author="author"></app-footer>
 </template>
 
 <style lang="scss">
 @use "./styles/general.scss";
+.background {
+  background-color: black;
+}
 </style>

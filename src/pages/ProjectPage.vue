@@ -27,21 +27,21 @@ export default {
 
 <template>
   <!-- stampa pagina dettaglio provvisoria -->
-  <div class="container my-5">
-    <div class="d-flex justify-content-between mb-3">
+  <div class="container">
+    <div class="d-flex justify-content-between">
       <h1>{{ name }}</h1>
       <button
         @click="goBack"
         class="btn my-3"
         style="background-color: #f38f00; color: white"
       >
-        Go to projects
+        <font-awesome-icon icon="fa-solid fa-left-long" /> Projects
       </button>
     </div>
     <div>
       <img :src="'/img/' + image + '.png'" class="img-fluid" />
     </div>
-    <p>{{ text }}</p>
+    <p class="mb-0">{{ text }}</p>
   </div>
 </template>
 

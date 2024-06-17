@@ -55,7 +55,7 @@ export default {
 
 <template>
   <main>
-    <div class="container my-5">
+    <div class="container">
       <!-- griglia Card -->
       <div class="row row-cols-lg-2 row-cols-1 g-4">
         <project-card v-for="project in this.projects" :project="project" />

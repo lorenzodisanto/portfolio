@@ -7,7 +7,7 @@ export default {
 
 <template>
   <header>
-    <nav class="navbar navbar-expand-lg text-bg-dark">
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
         <router-link
           :to="{ name: 'home' }"
@@ -62,5 +62,6 @@ header {
   top: 0;
   z-index: 1;
   height: 67px;
+  background-color: black;
 }
 </style>

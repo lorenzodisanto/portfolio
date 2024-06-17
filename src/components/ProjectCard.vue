@@ -26,9 +26,9 @@ export default {
         <div class="cover">
           <img :src="'../img/' + project.image + '.png'" class="card-img-top" />
         </div>
-        <div class="card-body">
+        <!-- <div class="card-body">
           <h3 class="card-title">{{ project.name }}</h3>
-        </div>
+        </div> -->
       </div>
     </router-link>
   </div>
