@@ -10,9 +10,9 @@ export default {
   <div class="wrapper container">
     <div>
       <h2>Hey there,</h2>
-      <h2>I'm Lorenzo <span style="color: #d37c01">Di Santo</span></h2>
+      <h2>I'm Lorenzo <span>Di Santo</span></h2>
       <h4 class="typing-demo">
-        <span style="color: rgb(156, 0, 0)"> Full Stack Web Developer </span>
+        <span style="color: #ff5722"> Full Stack Web Developer </span>
       </h4>
     </div>
   </div>

@@ -26,6 +26,6 @@ export default {
 <style lang="scss">
 @use "./styles/general.scss";
 .background {
-  background-color: black;
+  background-color: #171b20;
 }
 </style>

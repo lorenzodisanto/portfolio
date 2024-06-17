@@ -33,7 +33,7 @@ export default {
       <button
         @click="goBack"
         class="btn my-3"
-        style="background-color: #d37c01; color: white"
+        style="background-color: #ff5722; color: #eeeeee"
       >
         <font-awesome-icon icon="fa-solid fa-left-long" /> Projects
       </button>

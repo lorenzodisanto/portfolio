@@ -11,30 +11,24 @@ export default {
       <div class="container d-flex justify-content-between">
         <div>
           <span class="navbar-brand text-white" href="" target="_blank">
-            &copy; 2024 {{ author }}
+            &copy; {{ author }} 2024
           </span>
         </div>
         <div class="social">
           <a
             href="https://www.linkedin.com/in/lorenzo-di-santo-454282266/"
-            class="text-white"
             target="_blank"
           >
-            <font-awesome-icon icon="fa-brands fa-linkedin" /> LinkedIn
+            <font-awesome-icon icon="fa-brands fa-linkedin" />
+            LinkedIn
           </a>
-          <a
-            href="https://github.com/lorenzodisanto"
-            class="text-white"
-            target="_blank"
-          >
-            <font-awesome-icon icon="fa-brands fa-github" /> GitHub
+          <a href="https://github.com/lorenzodisanto" target="_blank">
+            <font-awesome-icon icon="fa-brands fa-github" />
+            GitHub
           </a>
-          <a
-            href="https://www.instagram.com/llor.ds/"
-            class="text-white"
-            target="_blank"
-          >
-            <font-awesome-icon icon="fa-brands fa-instagram" /> Instagram
+          <a href="https://www.instagram.com/llor.ds/" target="_blank">
+            <font-awesome-icon icon="fa-brands fa-instagram" />
+            Instagram
           </a>
         </div>
       </div>
@@ -45,14 +39,19 @@ export default {
 <style lang="scss" scoped>
 footer {
   height: 56px;
-  background-color: black;
+  background-color: #171b20;
 
   .social {
-    font-size: 1rem;
     a {
       text-decoration: none;
       margin-left: 60px;
+      font-size: 1.2rem;
+      color: #eeeeee;
     }
+  }
+
+  .social a:hover {
+    color: #ff5722;
   }
 }
 </style>

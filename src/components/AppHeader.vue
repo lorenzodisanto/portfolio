@@ -14,7 +14,8 @@ export default {
         <div>
           <router-link
             :to="{ name: 'home' }"
-            class="navbar-brand text-white fs-3"
+            class="fs-3"
+            style="color: #ff5722"
           >
             {{ title }}
           </router-link>
@@ -54,7 +55,7 @@ header {
   top: 0;
   z-index: 1;
   height: 67px;
-  background-color: black;
+  background-color: #171b20;
 
   .navMenu a {
     color: white;
@@ -69,17 +70,17 @@ header {
   }
 
   .navMenu .active {
-    color: #d37c01;
+    color: #ff5722;
   }
 
   .navMenu a:hover {
-    color: #d37c01;
+    color: #ff5722;
   }
 
   .navMenu .dot {
     width: 6px;
     height: 6px;
-    background: #d37c01;
+    background: #ff5722;
     border-radius: 50%;
     opacity: 0;
     -webkit-transform: translateX(30px);
