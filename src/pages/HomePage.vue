@@ -10,7 +10,7 @@ export default {
   <div class="wrapper container">
     <div>
       <h2>Hey there,</h2>
-      <h2>I'm Lorenzo <span style="color: #f38f00">Di Santo</span></h2>
+      <h2>I'm Lorenzo <span style="color: #d37c01">Di Santo</span></h2>
       <h4 class="typing-demo">
         <span style="color: rgb(156, 0, 0)"> Full Stack Web Developer </span>
       </h4>
@@ -20,10 +20,10 @@ export default {
 
 <style lang="scss" scoped>
 h2 {
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 h4 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .typing-demo {
   width: 24ch;

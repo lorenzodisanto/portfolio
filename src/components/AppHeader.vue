@@ -7,49 +7,41 @@ export default {
 
 <template>
   <header>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <router-link
-          :to="{ name: 'home' }"
-          class="navbar-brand text-white fs-3"
-        >
-          {{ title }}
-        </router-link>
-        <button
-          class="navbar-toggler border border-white"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon text-white"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item ms-4">
-              <router-link :to="{ name: 'about' }" class="nav-link text-white">
-                About
-              </router-link>
-            </li>
-            <li class="nav-item ms-4">
-              <router-link
-                :to="{ name: 'projects' }"
-                class="nav-link text-white"
-              >
-                Projects
-              </router-link>
-            </li>
-            <li class="nav-item ms-4">
-              <router-link
-                :to="{ name: 'contact' }"
-                class="nav-link text-white"
-              >
-                Contact
-              </router-link>
-            </li>
-          </ul>
+    <nav class="navMenu">
+      <div
+        class="container d-flex justify-content-between align-items-center py-3"
+      >
+        <div>
+          <router-link
+            :to="{ name: 'home' }"
+            class="navbar-brand text-white fs-3"
+          >
+            {{ title }}
+          </router-link>
+        </div>
+        <div>
+          <router-link
+            :to="{ name: 'about' }"
+            class="options"
+            active-class="active"
+          >
+            About
+          </router-link>
+          <router-link
+            :to="{ name: 'projects' }"
+            class="options"
+            active-class="active"
+          >
+            Projects
+          </router-link>
+          <router-link
+            :to="{ name: 'contact' }"
+            class="options"
+            active-class="active"
+          >
+            Contact
+          </router-link>
+          <div class="dot"></div>
         </div>
       </div>
     </nav>
@@ -63,5 +55,61 @@ header {
   z-index: 1;
   height: 67px;
   background-color: black;
+
+  .navMenu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .navMenu .options {
+    margin-left: 40px;
+  }
+
+  .navMenu .active {
+    color: #d37c01;
+  }
+
+  .navMenu a:hover {
+    color: #d37c01;
+  }
+
+  .navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #d37c01;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .navMenu a:nth-child(1):hover ~ .dot {
+    -webkit-transform: translateX(65px);
+    transform: translateX(65px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+
+  .navMenu a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(180px);
+    transform: translateX(180px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+
+  .navMenu a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(310px);
+    transform: translateX(310px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
 }
 </style>

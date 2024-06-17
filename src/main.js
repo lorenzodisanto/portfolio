@@ -14,8 +14,13 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 import { faLeftLong } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLinkedin,
+  faInstagram,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
-library.add(faLeftLong);
+library.add(faLeftLong, faLinkedin, faInstagram, faGithub);
 
 const app = createApp(App);
 

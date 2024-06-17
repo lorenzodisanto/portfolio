@@ -27,13 +27,13 @@ export default {
 
 <template>
   <!-- stampa pagina dettaglio provvisoria -->
-  <div class="container">
+  <div class="container py-5">
     <div class="d-flex justify-content-between">
       <h1>{{ name }}</h1>
       <button
         @click="goBack"
         class="btn my-3"
-        style="background-color: #f38f00; color: white"
+        style="background-color: #d37c01; color: white"
       >
         <font-awesome-icon icon="fa-solid fa-left-long" /> Projects
       </button>
