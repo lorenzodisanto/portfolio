@@ -16,18 +16,18 @@ export default {
         </div>
         <div class="social">
           <div>
+            <a href="https://github.com/lorenzodisanto" target="_blank">
+              <font-awesome-icon icon="fa-brands fa-github" />
+              GitHub
+            </a>
+          </div>
+          <div>
             <a
               href="https://www.linkedin.com/in/lorenzo-di-santo-454282266/"
               target="_blank"
             >
               <font-awesome-icon icon="fa-brands fa-linkedin" />
               LinkedIn
-            </a>
-          </div>
-          <div>
-            <a href="https://github.com/lorenzodisanto" target="_blank">
-              <font-awesome-icon icon="fa-brands fa-github" />
-              GitHub
             </a>
           </div>
           <div>
@@ -74,7 +74,7 @@ footer {
 
 @media screen and (min-width: 992px) {
   footer {
-    height: 56px;
+    height: 65px;
 
     .container {
       display: flex;
