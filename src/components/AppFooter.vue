@@ -7,10 +7,10 @@ export default {
 
 <template>
   <footer>
-    <nav class="navbar">
+    <nav>
       <div class="container">
         <div class="name">
-          <span class="navbar-brand text-white" href="" target="_blank">
+          <span class="text-white" href="" target="_blank">
             &copy; {{ author }} 2024
           </span>
         </div>
@@ -50,13 +50,15 @@ footer {
   .name {
     width: 100%;
     text-align: center;
-    margin: 8px 0px;
+    padding-top: 8px;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
   }
   .social {
     width: 100%;
     text-align: center;
     div {
-      margin: 10px 0px;
+      margin-top: 15px;
       a {
         text-decoration: none;
         font-size: 1.2rem;
