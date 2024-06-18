@@ -9,39 +9,50 @@ export default {
 
 <template>
   <div class="col">
-    <router-link
-      :to="{
-        name: 'project',
-        params: {
-          slug: project.name,
-        },
-        state: {
-          desc: project.description,
-          img: project.image,
-        },
-      }"
-      class="card-btn"
-    >
-      <div class="card h-100">
-        <div class="cover">
-          <img :src="'../img/' + project.image + '.png'" class="card-img-top" />
-        </div>
-        <!-- <div class="card-body">
-          <h3 class="card-title">{{ project.name }}</h3>
-        </div> -->
+    <div class="project-card">
+      <div class="thumbnail">
+        <img :src="'../img/' + project.image + '.png'" class="img-fluid" />
       </div>
-    </router-link>
+      <div class="card-content">
+        <span class="category">Category</span>
+        <h3 class="title">{{ project.name }}</h3>
+        <p class="description">{{ project.description }}</p>
+      </div>
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
 .col {
-  .card-btn {
-    cursor: pointer;
-    text-decoration: none;
-  }
-  &:hover {
-    transform: scale(1.02);
+  .project-card {
+    position: relative;
+
+    .thumbnail {
+      width: 100%;
+    }
+
+    .card-content {
+      width: 100%;
+      background-color: #2d4059;
+      position: absolute;
+      bottom: 0;
+      .category {
+        height: 30px;
+        padding: 0 10px;
+        position: absolute;
+        background-color: #ff5722;
+        top: -30px;
+      }
+      .description {
+        display: none;
+      }
+    }
+    &:hover .description {
+      display: block;
+    }
+    &:hover .thumbnail {
+      opacity: 0.7;
+    }
   }
 }
 </style>
