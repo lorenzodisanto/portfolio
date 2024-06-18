@@ -162,6 +162,7 @@ header {
     height: 100%;
     width: 100%;
     background: #2d4059;
+    opacity: 0.95;
     /*background: linear-gradient(90deg, #f92c78, #4114a1);*/
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
     /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
