@@ -22,7 +22,7 @@ export default {
         </div>
 
         <!-- HEADER DESKTOP-TABLET MODE -->
-        <div class="d-none d-md-block">
+        <div class="d-none d-sm-block">
           <router-link
             :to="{ name: 'about' }"
             class="options"
@@ -48,7 +48,7 @@ export default {
         </div>
 
         <!-- HEADER MOBILE MODE -->
-        <div class="d-md-none">
+        <div class="d-sm-none">
           <input type="checkbox" id="active" />
           <label for="active" class="menu-btn"><span></span></label>
           <label for="active" class="close"></label>
@@ -179,9 +179,9 @@ header {
   .menu-btn {
     position: absolute;
     z-index: 2;
-    right: 20px;
+    right: 0px;
     /*left: 20px; */
-    top: 20px;
+    top: 10px;
     height: 50px;
     width: 50px;
     text-align: center;

@@ -58,7 +58,7 @@ footer {
     width: 100%;
     text-align: center;
     div {
-      margin-top: 15px;
+      margin-top: 20px;
       a {
         text-decoration: none;
         font-size: 1.2rem;
@@ -83,6 +83,8 @@ footer {
       .name {
         text-align: start;
         width: 50%;
+        padding-top: 20px;
+        margin-bottom: 0px;
       }
       .social {
         width: 50%;
