@@ -22,9 +22,6 @@ export default {
 h2 {
   font-size: 4.5rem;
 }
-h4 {
-  font-size: 2.5rem;
-}
 .typing-demo {
   width: 24ch;
   animation: typing 2s steps(24), blink 0.5s step-end infinite alternate;
@@ -43,6 +40,16 @@ h4 {
 @keyframes blink {
   50% {
     border-color: transparent;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h2 {
+    font-size: 3.6rem;
+  }
+
+  .typing-demo {
+    font-size: 1.4em;
   }
 }
 </style>
