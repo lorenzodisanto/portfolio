@@ -15,7 +15,7 @@ export default {
       </div>
       <div class="card-content">
         <span class="category">Category</span>
-        <h3 class="title">{{ project.name }}</h3>
+        <h3 class="title pt-2 mb-3">{{ project.name }}</h3>
         <p class="description">{{ project.description }}</p>
       </div>
     </div>
@@ -26,7 +26,8 @@ export default {
 .col {
   .project-card {
     position: relative;
-    border-radius: 20px;
+    border-radius: 10px;
+    overflow: hidden;
     .thumbnail {
       width: 100%;
     }
@@ -34,10 +35,12 @@ export default {
     .card-content {
       width: 100%;
       background-color: #2d4059;
+      transition: 0.7s;
       padding: 0 10px;
-
       position: absolute;
       bottom: 0;
+      height: 15%;
+
       .category {
         height: 30px;
         padding: 0 10px;
@@ -46,16 +49,34 @@ export default {
         top: -30px;
         right: 0;
       }
-      .description {
-        display: none;
-      }
     }
-    &:hover .description {
-      display: block;
-      transition: 5s;
+    &:hover .card-content {
+      height: 65%;
+      transition: 0.7s;
+      opacity: 0.8;
     }
+
     &:hover .thumbnail {
       opacity: 0.7;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .project-card {
+      .card-content {
+        height: 12%;
+      }
+      &:hover .card-content {
+        height: 45%;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    .project-card {
+      &:hover .card-content {
+        height: 35%;
+      }
     }
   }
 }
