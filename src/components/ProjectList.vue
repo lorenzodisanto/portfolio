@@ -27,11 +27,11 @@ export default {
           image: "AutoCar",
         },
         {
-          name: "Whatsapp",
+          name: "Boolzapp",
           description:
             "Nullam convallis feugiat purus quis lacinia. Morbi tempor nulla nec pharetra fringilla. Donec odio justo, fermentum ac dolor vel, blandit tristique diam. Praesent sit amet vehicula dolor. Nulla id felis tortor. Sed vitae quam dolor. Nulla facilisi.",
 
-          image: "whatsapp",
+          image: "Boolzapp",
         },
         {
           name: "Spotify",

@@ -26,7 +26,7 @@ export default {
 .col {
   .project-card {
     position: relative;
-
+    border-radius: 20px;
     .thumbnail {
       width: 100%;
     }
@@ -34,6 +34,8 @@ export default {
     .card-content {
       width: 100%;
       background-color: #2d4059;
+      padding: 0 10px;
+
       position: absolute;
       bottom: 0;
       .category {
@@ -42,6 +44,7 @@ export default {
         position: absolute;
         background-color: #ff5722;
         top: -30px;
+        right: 0;
       }
       .description {
         display: none;
@@ -49,6 +52,7 @@ export default {
     }
     &:hover .description {
       display: block;
+      transition: 5s;
     }
     &:hover .thumbnail {
       opacity: 0.7;
