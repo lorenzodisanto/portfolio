@@ -12,79 +12,73 @@ export default {
   <div class="container d-none d-lg-block">
     <h1 class="py-5">{{ title }}</h1>
     <div class="wrapper">
-      <div class="d-flex">
-        <p class="me-5">
-          Ut placerat ultrices consequat. Proin porttitor leo massa, ac
-          consectetur libero accumsan ac. Pellentesque tempus purus ultrices
-          pellentesque dapibus. Maecenas et leo eros. Ut eget ante at turpis
-          vehicula gravida et et nisl. Nunc quis libero nunc. Fusce molestie
-          volutpat maximus. Nam rhoncus dolor non pellentesque semper. Proin leo
-          arcu, sagittis ut tellus nec, tempus rhoncus augue. Vestibulum nec
-          molestie libero, vitae dignissim dui. Quisque non turpis nibh. Donec
-          scelerisque neque vel odio dignissim commodo. Integer in bibendum dui,
-          laoreet commodo nunc. Praesent ac odio et tortor congue pharetra.
-          Pellentesque dapibus, enim in dapibus accumsan, dolor nisl
-          sollicitudin erat, sit amet imperdiet libero augue vel sapien. Nam
-          luctus tincidunt urna, vehicula dictum diam venenatis quis. Aliquam id
-          quam et neque convallis lacinia. Nulla eget sollicitudin nisi, at
-          pretium tortor. Aliquam porttitor odio sit amet urna posuere, sed
-          vulputate justo lacinia. Vivamus feugiat in mi sed consectetur.
-          Maecenas bibendum, mauris nec interdum ultricies, nisi dui rhoncus
-          mauris, sed euismod ex eros in est. Suspendisse rutrum, sem non
-          gravida pulvinar, ipsum enim accumsan augue, eu condimentum eros elit
-          ut lectus.
-        </p>
-        <p>
-          Mauris consectetur in dolor ac imperdiet. Sed volutpat hendrerit
-          felis, nec laoreet nulla lobortis vitae. Nullam finibus turpis dui,
-          eget convallis erat convallis ac. Ut et placerat purus. Maecenas
-          fringilla velit et dapibus dapibus. Curabitur arcu nibh, bibendum a
-          faucibus quis, lacinia at urna. Nunc eget nisi euismod, lacinia augue
-          sed, feugiat nibh. Praesent ullamcorper odio a justo facilisis
-          iaculis. Duis tempus massa eu magna fringilla facilisis. Quisque
-          porttitor fermentum efficitur. Nulla vestibulum accumsan egestas. Nam
-          ut dui quis arcu interdum aliquet vel eget ante.
-        </p>
+      <div class="d-flex justify-content-between">
+        <div class="image">
+          <div>
+            <img src="../../public/img/me.jpg" alt="" />
+          </div>
+        </div>
+        <div class="description">
+          <p>
+            Hi! I'm Lorenzo, a web developer with a passion for creating
+            innovative and functional web experiences. My adventure in the world
+            of web development started about a year ago and since then I have
+            been fascinated by the endless possibilities that this field offers.
+          </p>
+          <p>
+            I started my career as a programmer thanks to the Boolean
+            Tech-Academy where I learned the basics of front-end, back-end
+            programming and the use of MYSQL as well as the main development
+            tools.
+          </p>
+          <p>
+            I had the opportunity to work on several projects, both individually
+            and in teams, which allowed me to hone my technical and
+            collaborative skills.
+          </p>
+          <p>
+            I am a curious and determined person and my goal is to continue to
+            grow as a web developer, learning new technologies and constantly
+            improving my skills.
+          </p>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="container d-block d-lg-none">
     <div>
-      <h1 class="py-5">{{ title }}</h1>
+      <h1 class="pt-5 pb-4">{{ title }}</h1>
       <div>
-        <p class="pb-5">
-          Ut placerat ultrices consequat. Proin porttitor leo massa, ac
-          consectetur libero accumsan ac. Pellentesque tempus purus ultrices
-          pellentesque dapibus. Maecenas et leo eros. Ut eget ante at turpis
-          vehicula gravida et et nisl. Nunc quis libero nunc. Fusce molestie
-          volutpat maximus. Nam rhoncus dolor non pellentesque semper. Proin leo
-          arcu, sagittis ut tellus nec, tempus rhoncus augue. Vestibulum nec
-          molestie libero, vitae dignissim dui. Quisque non turpis nibh. Donec
-          scelerisque neque vel odio dignissim commodo. Integer in bibendum dui,
-          laoreet commodo nunc. Praesent ac odio et tortor congue pharetra.
-          Pellentesque dapibus, enim in dapibus accumsan, dolor nisl
-          sollicitudin erat, sit amet imperdiet libero augue vel sapien. Nam
-          luctus tincidunt urna, vehicula dictum diam venenatis quis. Aliquam id
-          quam et neque convallis lacinia. Nulla eget sollicitudin nisi, at
-          pretium tortor. Aliquam porttitor odio sit amet urna posuere, sed
-          vulputate justo lacinia. Vivamus feugiat in mi sed consectetur.
-          Maecenas bibendum, mauris nec interdum ultricies, nisi dui rhoncus
-          mauris, sed euismod ex eros in est. Suspendisse rutrum, sem non
-          gravida pulvinar, ipsum enim accumsan augue, eu condimentum eros elit
-          ut lectus.
-        </p>
-        <p class="pb-5">
-          Mauris consectetur in dolor ac imperdiet. Sed volutpat hendrerit
-          felis, nec laoreet nulla lobortis vitae. Nullam finibus turpis dui,
-          eget convallis erat convallis ac. Ut et placerat purus. Maecenas
-          fringilla velit et dapibus dapibus. Curabitur arcu nibh, bibendum a
-          faucibus quis, lacinia at urna. Nunc eget nisi euismod, lacinia augue
-          sed, feugiat nibh. Praesent ullamcorper odio a justo facilisis
-          iaculis. Duis tempus massa eu magna fringilla facilisis. Quisque
-          porttitor fermentum efficitur. Nulla vestibulum accumsan egestas. Nam
-          ut dui quis arcu interdum aliquet vel eget ante.
-        </p>
+        <div class="image-mobile pb-4">
+          <div>
+            <img src="../../public/img/me.jpg" alt="" />
+          </div>
+        </div>
+        <div class="description-mobile">
+          <p>
+            Hi! I'm Lorenzo, a web developer with a passion for creating
+            innovative and functional web experiences. My adventure in the world
+            of web development started about a year ago and since then I have
+            been fascinated by the endless possibilities that this field offers.
+          </p>
+          <p>
+            I started my career as a programmer thanks to the Boolean
+            Tech-Academy where I learned the basics of front-end, back-end
+            programming and the use of MYSQL as well as the main development
+            tools.
+          </p>
+          <p>
+            I had the opportunity to work on several projects, both individually
+            and in teams, which allowed me to hone my technical and
+            collaborative skills.
+          </p>
+          <p class="mb-0 pb-4">
+            I am a curious and determined person and my goal is to continue to
+            grow as a web developer, learning new technologies and constantly
+            improving my skills.
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -94,8 +88,29 @@ export default {
 h1 {
   font-weight: 600;
 }
-p {
-  text-align: justify;
-  margin-bottom: 0px;
+.description {
+  width: 50%;
+  p {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+  }
+}
+.image {
+  width: 50%;
+  img {
+    width: 60%;
+  }
+}
+
+.image-mobile {
+  width: 100%;
+  text-align: center;
+  img {
+    width: 70%;
+  }
+}
+
+.description-mobile {
 }
 </style>
