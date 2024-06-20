@@ -9,20 +9,17 @@ export default {
 </script>
 
 <template>
-  <div class="container py-5">
-    <h1>{{ title }}</h1>
-    <div class="wrapper">
+  <div class="wrapper container py-5">
+    <div class="contacts">
+      <!-- <h1>{{ title }}</h1> -->
+      <p>If you want to talk to me,</p>
+      <p>you can send an email to me:</p>
       <p>
-        Mauris consectetur in dolor ac imperdiet. Sed volutpat hendrerit felis,
-        nec laoreet nulla lobortis vitae. Nullam finibus turpis dui, eget
-        convallis erat convallis ac. Ut et placerat purus. Maecenas fringilla
-        velit et dapibus dapibus. Curabitur arcu nibh, bibendum a faucibus quis,
-        lacinia at urna. Nunc eget nisi euismod, lacinia augue sed, feugiat
-        nibh. Praesent ullamcorper odio a justo facilisis iaculis. Duis tempus
-        massa eu magna fringilla facilisis. Quisque porttitor fermentum
-        efficitur. Nulla vestibulum accumsan egestas. Nam ut dui quis arcu
-        interdum aliquet vel eget ante.
+        <a href="mailto:lore.disanto95@gmail.com" style="color: #ff5722"
+          >lore.disanto95@gmail.com</a
+        >
       </p>
+      <p>Visit my profiles v</p>
     </div>
   </div>
 </template>
@@ -30,5 +27,8 @@ export default {
 <style lang="scss" scoped>
 h1 {
   font-weight: 600;
+}
+.contacts {
+  font-size: 2rem;
 }
 </style>
