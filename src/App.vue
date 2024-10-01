@@ -6,7 +6,7 @@ import AppFooter from "./components/AppFooter.vue";
 export default {
   data() {
     return {
-      title: ".diesse",
+      title: ".Lorenzo",
       author: "Lorenzo Di Santo",
     };
   },

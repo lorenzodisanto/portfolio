@@ -30,12 +30,6 @@ export default {
               LinkedIn
             </a>
           </div>
-          <div>
-            <a href="https://www.instagram.com/llor.ds/" target="_blank">
-              <font-awesome-icon icon="fa-brands fa-instagram" />
-              Instagram
-            </a>
-          </div>
         </div>
       </div>
     </nav>
@@ -44,7 +38,7 @@ export default {
 
 <style lang="scss" scoped>
 footer {
-  height: 200px;
+  height: 150px;
   background-color: #171b20;
 
   .name {

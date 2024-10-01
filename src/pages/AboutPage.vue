@@ -110,7 +110,4 @@ h1 {
     width: 70%;
   }
 }
-
-.description-mobile {
-}
 </style>
