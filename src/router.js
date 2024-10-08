@@ -30,7 +30,7 @@ const router = createRouter({
       component: ContactPage,
     },
     {
-      path: "/:pathMatch(.*)*",
+      path: "/:catchAll(.*)",
       name: "not-found",
       component: NotFoundPage,
     },
