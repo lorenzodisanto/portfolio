@@ -19,7 +19,10 @@ export default {
           >lore.disanto95@gmail.com</a
         >
       </p>
-      <a href="/public/lorenzo_disanto_CV.pdf" download class="download-btn"
+      <a
+        href="../../public/lorenzo_disanto_CV.pdf"
+        download
+        class="download-btn"
         >Download CV</a
       >
     </div>
