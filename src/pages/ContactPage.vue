@@ -19,7 +19,9 @@ export default {
           >lore.disanto95@gmail.com</a
         >
       </p>
-      <!-- <p>Visit my profiles v</p> -->
+      <a href="/src/assets/lorenzo_disanto_CV.pdf" download class="download-btn"
+        >Download CV</a
+      >
     </div>
   </div>
 </template>
@@ -33,6 +35,21 @@ h1 {
 }
 .contacts {
   font-size: 1.3rem;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.download-btn:hover {
+  font-size: 20px;
 }
 @media screen and (min-width: 576px) {
   .contacts {
