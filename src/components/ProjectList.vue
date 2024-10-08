@@ -9,38 +9,47 @@ export default {
         {
           name: "BooHouse",
           description:
-            "Nullam convallis feugiat purus quis lacinia. Morbi tempor nulla nec pharetra fringilla. Donec odio justo, fermentum ac dolor vel, blandit tristique diam. Praesent sit amet vehicula dolor. Nulla id felis tortor. Sed vitae quam dolor. Nulla facilisi.",
-
+            "Team development of a web portal for finding and managing apartment rentals",
+          tech: "Vue.js - Axios - Laravel - MySQL",
+          link: "https://github.com/MatteoOliva/vue-booHouse",
           image: "BooHouse",
         },
         {
           name: "Boolfolio",
           description:
-            "Nullam convallis feugiat purus quis lacinia. Morbi tempor nulla nec pharetra fringilla. Donec odio justo, fermentum ac dolor vel, blandit tristique diam. Praesent sit amet vehicula dolor. Nulla id felis tortor. Sed vitae quam dolor. Nulla facilisi.",
+            "Development of a portfolio presentation management system",
+          tech: "Vue.js - Axios - Laravel - MySQL",
+          link: "https://github.com/lorenzodisanto/vite-boolfolio",
           image: "Boolfolio",
         },
         {
           name: "AutoCar",
           description:
-            "Nullam convallis feugiat purus quis lacinia. Morbi tempor nulla nec pharetra fringilla. Donec odio justo, fermentum ac dolor vel, blandit tristique diam. Praesent sit amet vehicula dolor. Nulla id felis tortor. Sed vitae quam dolor. Nulla facilisi.",
-
+            "A replica of an website, developed to master frontend skills",
+          tech: "HTML - CSS - Vue.js - Sass",
+          link: "https://github.com/lorenzodisanto/proj-html-vuejs",
           image: "AutoCar",
         },
         {
           name: "Boolzapp",
-          description:
-            "Nullam convallis feugiat purus quis lacinia. Morbi tempor nulla nec pharetra fringilla. Donec odio justo, fermentum ac dolor vel, blandit tristique diam. Praesent sit amet vehicula dolor. Nulla id felis tortor. Sed vitae quam dolor. Nulla facilisi.",
-
+          description: "A WhatsApp clone created to improve frontend skills",
+          tech: "HTML - CSS - Axios - Javascript",
+          link: "https://github.com/lorenzodisanto/vue-boolzapp",
           image: "Boolzapp",
         },
         {
           name: "Spotify",
-          description: "Descrizione Spotify non disponibile",
+          description: "A replica of Spotify music",
+          tech: "HTML - CSS",
+          link: "https://github.com/lorenzodisanto/html-css-spotifyweb",
           image: "Spotify",
         },
         {
           name: "Boolflix",
-          description: "Descrizione Boolflix non disponibile",
+          description:
+            "A replica of a streaming app with movies and TV series detail retrieval",
+          tech: "HTML - CSS - Vue.js - Axios",
+          link: "https://github.com/lorenzodisanto/vite-boolflix",
           image: "Boolflix",
         },
       ],

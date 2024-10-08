@@ -15,8 +15,16 @@ export default {
       </div>
       <div class="card-content">
         <span class="category">Category</span>
-        <h3 class="title pt-2 mb-3">{{ project.name }}</h3>
-        <p class="description">{{ project.description }}</p>
+        <div class="title">
+          <h3>{{ project.name }}</h3>
+          <span class="link"
+            ><a :href="project.link" target="_blank">
+              <font-awesome-icon icon="fa-brands fa-github" /></a
+          ></span>
+        </div>
+
+        <p class="description pt-2">{{ project.description }}</p>
+        <p class="tech">{{ project.tech }}</p>
       </div>
     </div>
   </div>
@@ -49,9 +57,31 @@ export default {
         top: -30px;
         right: 0;
       }
+
+      .title {
+        display: flex;
+        margin-top: 2px;
+      }
+      .link {
+        font-size: 1.6rem;
+        padding-left: 20px;
+
+        a {
+          text-decoration: none;
+          color: #eeeeee;
+        }
+      }
+      .link a:hover {
+        color: #ff5722;
+      }
+
+      .tech {
+        color: #ff5722;
+        font-size: 1rem;
+      }
     }
     &:hover .card-content {
-      height: 65%;
+      height: 60%;
       transition: 0.7s;
       opacity: 0.8;
     }
@@ -61,13 +91,37 @@ export default {
     }
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 510px) {
     .project-card {
       .card-content {
         height: 12%;
       }
       &:hover .card-content {
-        height: 45%;
+        height: 40%;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .project-card {
+      .card-content {
+        h3 {
+          font-size: 1.5rem;
+        }
+        .link {
+          font-size: 1.3rem;
+        }
+      }
+      &:hover .card-content {
+        height: 65%;
+      }
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .project-card {
+      &:hover .card-content {
+        height: 40%;
       }
     }
   }
@@ -75,7 +129,11 @@ export default {
   @media screen and (min-width: 1400px) {
     .project-card {
       &:hover .card-content {
-        height: 35%;
+        height: 30%;
+      }
+
+      .description {
+        margin-top: 5px;
       }
     }
   }
