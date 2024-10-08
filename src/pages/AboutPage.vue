@@ -54,7 +54,7 @@ export default {
           <img src="../../public/img/me.jpg" alt="" />
         </div>
         <div class="skills pb-5">
-          <h3 class="mt-3">My Skills</h3>
+          <h3 class="mt-5">.My Skills</h3>
           <div v-for="skill in this.skills" class="skill-badge mt-3">
             {{ skill }}
           </div>
