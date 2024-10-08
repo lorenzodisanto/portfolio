@@ -16,6 +16,17 @@ body {
   // overflow-y: scroll;
 }
 
+/* Stile di base per la barra di NProgress */
+#nprogress .bar {
+  background: #ff5722; /* Colore simile a quello di YouTube */
+  height: 3px; /* Altezza della barra */
+}
+
+/* Stile per lo spinner (puoi nasconderlo se non vuoi) */
+#nprogress .spinner {
+  display: none; /* Nascondi lo spinner */
+}
+
 @media screen and (min-width: 992px) {
   .wrapper {
     height: calc(100vh - 67px - 65px);
