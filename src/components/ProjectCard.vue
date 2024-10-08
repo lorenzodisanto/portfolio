@@ -91,7 +91,7 @@ export default {
     }
   }
 
-  @media screen and (min-width: 510px) {
+  @media screen and (min-width: 440px) {
     .project-card {
       .card-content {
         height: 12%;
@@ -126,14 +126,23 @@ export default {
     }
   }
 
+  @media screen and (min-width: 1200px) {
+    .project-card {
+      .card-content {
+        h3 {
+          font-size: 1.8rem;
+        }
+        .link {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
   @media screen and (min-width: 1400px) {
     .project-card {
       &:hover .card-content {
         height: 30%;
-      }
-
-      .description {
-        margin-top: 5px;
       }
     }
   }
