@@ -11,6 +11,7 @@ export default {
           description:
             "Team development of a web portal for finding and managing apartment rentals",
           tech: "Vue.js - Axios - Laravel - MySQL",
+          category: "Fullstack",
           link: "https://github.com/MatteoOliva/vue-booHouse",
           image: "BooHouse",
         },
@@ -19,6 +20,7 @@ export default {
           description:
             "Development of a portfolio presentation management system",
           tech: "Vue.js - Axios - Laravel - MySQL",
+          category: "Fullstack",
           link: "https://github.com/lorenzodisanto/vite-boolfolio",
           image: "Boolfolio",
         },
@@ -26,6 +28,7 @@ export default {
           name: "AutoCar",
           description:
             "A replica of an website, developed to master frontend skills",
+          category: "Frontend",
           tech: "HTML - CSS - Vue.js - Sass",
           link: "https://github.com/lorenzodisanto/proj-html-vuejs",
           image: "AutoCar",
@@ -33,6 +36,7 @@ export default {
         {
           name: "Boolzapp",
           description: "A WhatsApp clone created to improve frontend skills",
+          category: "Frontend",
           tech: "HTML - CSS - Axios - Javascript",
           link: "https://github.com/lorenzodisanto/vue-boolzapp",
           image: "Boolzapp",
@@ -40,6 +44,7 @@ export default {
         {
           name: "Spotify",
           description: "A replica of Spotify music",
+          category: "Frontend",
           tech: "HTML - CSS",
           link: "https://github.com/lorenzodisanto/html-css-spotifyweb",
           image: "Spotify",
@@ -48,6 +53,7 @@ export default {
           name: "Boolflix",
           description:
             "A replica of a streaming app with movies and TV series detail retrieval",
+          category: "Frontend",
           tech: "HTML - CSS - Vue.js - Axios",
           link: "https://github.com/lorenzodisanto/vite-boolflix",
           image: "Boolflix",

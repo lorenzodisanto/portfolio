@@ -14,13 +14,14 @@ export default {
         <img :src="'../img/' + project.image + '.png'" class="img-fluid" />
       </div>
       <div class="card-content">
-        <span class="category">Category</span>
+        <span class="category">{{ project.category }}</span>
         <div class="title">
           <h3>{{ project.name }}</h3>
           <span class="link"
             ><a :href="project.link" target="_blank">
-              <font-awesome-icon icon="fa-brands fa-github" /></a
-          ></span>
+              <font-awesome-icon icon="fa-brands fa-github"
+            /></a>
+          </span>
         </div>
 
         <p class="description pt-2">{{ project.description }}</p>

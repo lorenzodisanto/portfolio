@@ -160,7 +160,7 @@ header {
     /*left: -100%;*/
     right: -100%;
     height: 100%;
-    width: 100%;
+    width: 60%;
     background: #2d4059;
     opacity: 0.95;
     /*background: linear-gradient(90deg, #f92c78, #4114a1);*/
@@ -237,7 +237,7 @@ header {
   .wrapper-menu ul {
     position: absolute;
     top: 60%;
-    left: 10%;
+    left: 20%;
     height: 100%;
     transform: translate(-50%, -50%);
     list-style: none;

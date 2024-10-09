@@ -14,8 +14,8 @@ export default {
       <h1 class="my-4">OOPS! YOU DON'T WANT TO BE HERE</h1>
       <h4>
         It looks like it's time to abort and go
-        <router-link :to="{ name: 'home' }" class="fs-3" style="color: #ff5722">
-          Home
+        <router-link :to="{ name: 'home' }" style="color: #ff5722">
+          <span class="fs-1">HOME</span>
         </router-link>
       </h4>
     </div>
