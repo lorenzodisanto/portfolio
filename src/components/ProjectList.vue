@@ -27,7 +27,7 @@ export default {
         {
           name: "AutoCar",
           description:
-            "A replica of an website, developed to master frontend skills",
+            "A replica of a website, developed to master frontend skills",
           category: "Frontend",
           tech: "HTML - CSS - Vue.js - Sass",
           link: "https://github.com/lorenzodisanto/proj-html-vuejs",
